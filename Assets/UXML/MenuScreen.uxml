@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/USS/menu.uss?fileID=7433441132597879392&amp;guid=5f27c83e1dd0841a88af4a25b89fbd89&amp;type=3#menu" />
+    <engine:VisualElement name="main-menu-screen" class="screen screen-background">
+        <engine:VisualElement name="menu-center-panel" class="menu-center-panel menu-background-color" style="justify-content: center;">
+            <engine:VisualElement name="menu-start-title" style="width: 100%; height: 35%; min-height: 150px; background-image: url(&quot;project://database/Assets/Texture/joystick_808439.png?fileID=2800000&amp;guid=8ff497c45abd9499f932b783016ecd95&amp;type=3#joystick_808439&quot;); -unity-background-scale-mode: scale-to-fit; align-items: stretch; justify-content: flex-start; margin-top: 10px; margin-bottom: 50px;" />
+            <engine:VisualElement name="menu-bottom-list" class="menu-bottom-list">
+                <engine:Button text="Start" name="start-button" class="button menu-button" />
+                <engine:Button text="Setting" name="setting-button" class="button menu-button" />
+                <engine:Button text="Exit" name="exit-button" class="button menu-button" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

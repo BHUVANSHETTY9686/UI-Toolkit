@@ -1,0 +1,21 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/USS/menu.uss?fileID=7433441132597879392&amp;guid=5f27c83e1dd0841a88af4a25b89fbd89&amp;type=3#menu" />
+    <engine:VisualElement name="game-screen" style="flex-grow: 1; justify-content: space-evenly; height: 0;">
+        <engine:VisualElement name="top-panel" style="flex-grow: 1; flex-direction: row; height: 0; min-height: auto;">
+            <engine:VisualElement name="top-left-panel" style="flex-grow: 1; flex-direction: column;">
+                <engine:Label text="Ammo" name="ammo-label" class="button" style="width: 200px; height: 50px;" />
+                <engine:Label text="Label" name="ammo-count" class="button" style="width: 200px; height: 50px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="top-right-panel" style="flex-grow: 1; flex-direction: row-reverse;">
+                <engine:Button text="Back" name="back-to-menu-button" class="button" style="width: 100px; height: 100px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="bottom-panel" style="flex-grow: 1; flex-direction: row;">
+            <engine:VisualElement name="bottom-left-panel" style="flex-grow: 1; flex-direction: row; flex-wrap: nowrap; align-items: auto; justify-content: flex-start;">
+                <engine:Button text="Shot" name="shot-button" class="button" style="width: 100px; height: 100px;" />
+                <engine:Button text="Reload" name="reload-button" class="button" style="width: 100px; height: 100px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="bottom-right-panel" style="flex-grow: 1; flex-direction: row-reverse;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

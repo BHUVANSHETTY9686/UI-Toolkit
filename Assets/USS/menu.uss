@@ -1,0 +1,78 @@
+.button:active {
+    border-left-color: rgb(0, 196, 255);
+    border-right-color: rgb(0, 196, 255);
+    border-top-color: rgb(0, 196, 255);
+    border-bottom-color: rgb(0, 196, 255);
+    background-color: rgb(245, 238, 10);
+}
+
+.button:hover {
+    background-color: rgb(97, 255, 81);
+    border-left-color: rgb(255, 223, 0);
+    border-right-color: rgb(255, 223, 0);
+    border-top-color: rgb(255, 223, 0);
+    border-bottom-color: rgb(255, 223, 0);
+    color: rgb(0, 0, 0);
+}
+
+.screen {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.screen-background {
+    background-image: url("project://database/Assets/Texture/1847.jpg?fileID=2800000&guid=65f7a60527c0148a2ae8ba95740fe9b7&type=3#1847");
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.menu-center-panel {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.menu-background-color {
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.menu-bottom-list {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    min-width: 200px;
+}
+
+.menu-button {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    -unity-font-style: bold;
+}
+
+.button {
+    padding-top: 1px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 1px;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-left-color: rgb(193, 229, 226);
+    border-right-color: rgb(193, 229, 226);
+    border-top-color: rgb(193, 229, 226);
+    border-bottom-color: rgb(193, 229, 226);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    -unity-text-align: middle-center;
+}
